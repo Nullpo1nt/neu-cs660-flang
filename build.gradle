@@ -1,0 +1,14 @@
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    testImplementation 'junit:junit:4.12'
+}
+
+application {
+    mainClass = 'martin.bryant.csu660.FLANGulator'
+}
